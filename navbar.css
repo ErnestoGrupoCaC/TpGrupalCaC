@@ -1,0 +1,62 @@
+/* Color de fondo de la barra */
+.topnav {
+    background-color: lightseagreen;
+    overflow: hidden;
+}
+
+/* Estilo de los vínculos */
+.topnav a {
+    float: left;
+    display: block;
+    color: palegoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Cambia el estilo en hover */
+.topnav a:hover {
+    background-color: palegoldenrod;
+    color: lightseagreen;
+}
+
+/* Define el estilo de la página activa */
+.topnav a.activa {
+    background-color:darkseagreen;
+}
+
+/* Oculta el ícono de hamburguesa en pantallas grandes */
+.topnav .icono {
+    display: none;
+}
+
+
+/* Configuraciones responsivas */
+@media screen and (max-width: 768px) {
+    
+    .topnav a:not(.activa) {
+        display: none;
+    }
+    
+    .topnav a.icono {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icono {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
