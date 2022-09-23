@@ -1,14 +1,20 @@
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Color de fondo de la barra */
 .topnav {
-    background-color: lightseagreen;
+    background-color: #0e2b4c;
     overflow: hidden;
+    
 }
 
 /* Estilo de los vínculos */
 .topnav a {
     float: left;
     display: block;
-    color: palegoldenrod;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,18 +23,35 @@
 
 /* Cambia el estilo en hover */
 .topnav a:hover {
-    background-color: palegoldenrod;
-    color: lightseagreen;
+    background-color: whitesmoke;
+    color: #2d99dc;
 }
 
 /* Define el estilo de la página activa */
 .topnav a.activa {
-    background-color:darkseagreen;
+    background-color:#2d99dc;
 }
 
 /* Oculta el ícono de hamburguesa en pantallas grandes */
 .topnav .icono {
     display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acceso a{
+    color: #0e2b4c;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header img{
+    width: 100px;
+    padding: 10px;
 }
 
 
@@ -59,4 +82,9 @@
         display: block;
         text-align: left;
     }
+
+    
+
+
 }
+    
