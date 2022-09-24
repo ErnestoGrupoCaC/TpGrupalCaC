@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+        div.headerGrande1{
+            display: inline-block;
+            width: 255px;
+            height: 170px;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 111, 0);
+            background-image:url(img/perito.jpg);
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+        }
+        div.headerGrande2{
+            display: inline-block;
+            width: 255px;
+            height: 170px;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 111, 0);
+            background-image:url(img/condor.jpg);
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+        }
+        div.headerGrande3{
+            display: inline-block;
+            width: 255px;
+            height: 170px;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 111, 0);
+            background-image:url(img/puente.jpg);
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+        }
+        div.headerGrande4{
+            display: inline-block;
+            width: 255px;
+            height: 170px;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 111, 0);
+            background-image:url(img/chalten.jpg);
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+            
+        }
+
+
+        div.headerGrandeLogo{
+            display: inline-block;
+            width: 130px;
+            height: 170px;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 255,255);
+            background-image:url(img/viajAr_logo.png);
+            background-repeat:no-repeat;
+            background-size: 80% 90%;
+            flex-wrap: ;
+            
+            
+        }
+
+        #centrado { width: 1200px; margin: 0 auto; }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <header id="centrado">
+        <div class="headerGrandeLogo">            
+            <a href="index.html"></a>
+
+        </div>
+        <div class="headerGrande1"></div>
+        <div class="headerGrande2"></div>
+        <div class="headerGrande3"></div>
+        <div class="headerGrande4"></div>
+
+    </header>
+    
+
+</body>
+</html>
