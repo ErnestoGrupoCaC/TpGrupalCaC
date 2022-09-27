@@ -3,6 +3,33 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+footer {
+    background-color: #0e2b4c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer a{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+section {
+    padding: 12px;
+}
+
+section H1 {
+    color: #0e2b4c;
+    font-weight: 600;
+    padding: 12px;
+}
 /* Color de fondo de la barra */
 .topnav {
     background-color: #0e2b4c;
