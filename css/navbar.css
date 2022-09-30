@@ -116,7 +116,19 @@ header img{
 }
     
 /* breack point celular */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
+    header img{
+        width: 60px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     section {
         padding: 4px;
     }
@@ -125,7 +137,15 @@ header img{
         padding: 1px;
     }
 
-    .imagen-destino {
+    section article img {
         width: 100%;
+        margin-top: 5px;
     }
+
+    #info-destino {
+        margin-bottom: 20px;
+        border-bottom: gray;
+    }
+
+
 }
