@@ -115,3 +115,17 @@ header img{
 
 }
     
+/* breack point celular */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 4px;
+    }
+
+    section h1 {
+        padding: 1px;
+    }
+
+    .imagen-destino {
+        width: 100%;
+    }
+}
