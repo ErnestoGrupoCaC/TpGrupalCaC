@@ -19,6 +19,7 @@ footer a{
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
+    margin-top: 12px;
 }
 
 section {
@@ -81,6 +82,29 @@ header img{
     padding: 10px;
 }
 
+#destino {
+    width: 240px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    padding: 24px;
+}
+
+#destino:hover {
+    transform: scale(1.1);
+}
+
+#grilla-destino {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   align-content: center;
+}
+
 
 /* Configuraciones responsivas */
 @media screen and (max-width: 768px) {
@@ -110,6 +134,29 @@ header img{
         text-align: left;
     }
 
+    #destino {
+        width: 160px;
+        margin-left: 12px;
+        margin-top: 12px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 0.5px;
+        padding: 12px;
+    }
+
+    #destino:hover {
+        transform: scale(1.1);
+    }
+
+    #grilla-destino {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       align-content: center;
+    }
+
     
 
 
@@ -117,6 +164,7 @@ header img{
     
 /* breack point celular */
 @media screen and (max-width: 320px) {
+    
     header img{
         width: 60px;
     }
@@ -145,6 +193,13 @@ header img{
     #info-destino {
         margin-bottom: 20px;
         border-bottom: gray;
+    }
+
+    #destino {
+        border-bottom-style: solid;
+        border-bottom-color: gray;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
 
