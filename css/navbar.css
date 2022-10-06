@@ -77,10 +77,10 @@ header {
     padding: 10px;
 }
 
-header img{
-    width: 100px;
-    padding: 10px;
-}
+/*header img{
+/*    width: 100px;
+/*    padding: 10px;
+/*}
 
 #destino {
     width: 240px;
@@ -107,7 +107,212 @@ header img{
 
 
 /* Configuraciones responsivas */
+
+@media screen and (min-width: 1024px){
+    div.headerGrande1{
+        display: inline-block;
+        width: 22%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/perito.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+
+    div.headerGrande2{
+        display: inline-block;
+        width: 22%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande3{
+        display: inline-block;
+        width: 22%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/puente.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande4{
+        display: inline-block;
+        width: 22%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;            
+    }
+    div.headerGrandeLogo{
+        display: inline-block;
+        width: 12%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255,255);
+        background-image:url(../img/viajAr_logo.png);
+        background-repeat:no-repeat;
+        background-size: 98% 100%;
+               
+    }
+
+    #centrado { width: 1024px; margin: 0 auto; }
+
+    }
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    div.headerGrande1{
+        display: inline-block;
+        width: 29%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/perito.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+
+    div.headerGrande2{
+        display: inline-block;
+        width: 29%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande3{
+        display: inline-block;
+        width: 29%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/puente.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande4{
+        display: inline-block;
+        width: 0%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;            
+    }
+    div.headerGrandeLogo{
+        display: inline-block;
+        width:124px ;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255,255);
+        background-image:url(../img/viajAr_logo.png);
+        background-repeat:no-repeat;
+        background-size:98% 100%;
+               
+    }
+
+    #centrado { width: 100%; margin: 0 auto; }
+
+
+
+    }
+
 @media screen and (max-width: 768px) {
+    
+        div.headerGrande1{
+        display: inline-block;
+        width: 190px;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/perito.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+
+    div.headerGrande2{
+        display: inline-block;
+        width: 190px;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande3{
+        display: inline-block;
+        width: 0%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/puente.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    div.headerGrande4{
+        display: inline-block;
+        width: 0%;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;            
+    }
+    div.headerGrandeLogo{
+        display: inline-block;
+        width: 124px;
+        height: 170px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255,255);
+        background-image:url(../img/viajAr_logo.png);
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+               
+    }
+
+    #centrado { width: 100%; margin: 0 auto; }
+
     
     .topnav a:not(.activa) {
         display: none;
