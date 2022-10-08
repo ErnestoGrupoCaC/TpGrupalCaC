@@ -459,5 +459,22 @@ div.index_columna_interna_texto p{
         margin-bottom: 10px;
     }
 
-
+    div.index_columna{
+        display: inline-block;
+        width: 360px;
+        height: 280px;
+        border: 0px;
+        padding: 0px;
+        margin: 10px;
+        border-radius: 8px;
+        background-color: rgba(132, 135, 139, 0.182);
+        /*background-color: rgb(143, 179, 234);*/
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        border-style: solid;
+        border-color: gray;
+        border-width: 0.5px;
+    }
+    
+    
 }
