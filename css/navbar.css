@@ -420,7 +420,7 @@ div.index_columna_interna_texto p{
 }
     
 /* breack point celular */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
     
     header img{
         width: 60px;
