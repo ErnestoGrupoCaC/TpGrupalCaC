@@ -458,11 +458,38 @@ div.index_columna_interna_texto p{
         margin-top: 5px;
         margin-bottom: 10px;
     }
+    
+    div.index_columna_interna_foto{ 
+        display: inline-block;
+        width: 48%;
+        height: 180px;
+        border: 0px;
+        padding: 0px 0em;
+        margin: 0px;
+        background-color: rgb(91, 80, 164);
+        background-size: 100% 100%;
+
+    }
+
+    div.index_columna_interna_texto{
+        display: inline-block;
+        width: 48%;
+        height: 180px;
+        border: 0px;
+        padding: 0px 0em;
+        margin: 0px;
+        background-color: rgba(132, 135, 139, 0.182));
+        /*text-align:center;*/
+        align-items: center;
+        vertical-align:top;
+    
+
+    }
 
     div.index_columna{
         display: inline-block;
         width: 310px;
-        height: 280px;
+        height: 260px;
         border: 0px;
         padding: 0px;
         margin: 10px;
