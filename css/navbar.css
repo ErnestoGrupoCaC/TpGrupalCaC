@@ -22,6 +22,45 @@ footer a{
     margin-top: 12px;
 }
 
+div.footer_principal{
+    display: inline-flex;
+    justify-content:space-around;
+    width: 100%;
+}
+
+div.footer_interno{
+    display: inline-flex;
+    width: 280px;    
+    background-color: #0e2b4c;
+    
+}
+
+div.footer_interno li:{
+    color: rgba(255, 255, 255);
+    
+} 
+
+div.footer_interno_links li:{
+    color: rgba(255, 255, 255);
+    
+}
+
+div.footer_interno_links ul:{
+    color: rgba(255, 255, 255);
+    
+}
+
+div.footer_interno_links li:hover{
+    color: rgb(90, 229, 244);
+}
+
+div.footer_interno_links a:hover{
+    color: rgb(90, 229, 244);
+    text-decoration: underline;
+    font-style:italic;
+}
+
+
 section {
     padding: 12px;
 }
