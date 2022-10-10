@@ -14,7 +14,7 @@ footer {
 }
 
 footer a{
-    color: whitesmoke;
+    color: whitesmoke !important;
     text-align: center;
     text-decoration: none;
     font-weight: 600;
@@ -262,7 +262,10 @@ div.index_columna_interna_texto p{
                
     }
 
-    #centrado { width: 1024px; margin: 0 auto; }
+    #centrado {
+        width: 1024px; margin: 0 auto;
+        background-color:cornflowerblue;
+    }
 
     }
 

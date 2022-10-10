@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/navbar.js"></script>
+    <script src="js/contact_form.js"></script>
 </head>
 <body>
     <header id="centrado">
@@ -48,7 +49,7 @@
             <div class="col-md-7">
                 <h3>Formulario de contacto</h3>
                 <p>Envíanos un mensaje mediante el siguiente formulario.</p>
-                <form action="https://formspree.io/f/xpznpjzp" method="post" target="_blank">
+                <form name="fcontact" action="https://formspree.io/f/xpznpjzp" method="post" target="_blank">
                     <label class="form-label" for="name">Nombre: </label>
                     <input type="text" class="form-control" name="name" id="name">
                     <label class="form-label" for="lastname">Apellido: </label>
@@ -71,7 +72,7 @@
                     <!--<label class="form-label" for="attach">Adjuntar archivo: </label>
                     <input type="file" class="form-control" name="attach" id="attach" multiple>-->
                     <br>
-                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="button" class="btn btn-primary" value="Enviar" onclick="valida_form()">
                     <input type="reset" class="btn btn-default" value="Borrar">
                 </form>
             </div>
