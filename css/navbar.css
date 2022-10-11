@@ -177,7 +177,7 @@ div.index_columna_interna_texto{
     border: 0px;
     padding: 0px 0em;
     margin: 0px;
-    background-color: rgba(132, 135, 139, 0.182);
+   /* background-color: rgba(132, 135, 139, 0.182);*/
     /*text-align:center;*/
     align-items: center;
     vertical-align:top;
