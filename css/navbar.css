@@ -215,6 +215,7 @@ div.nosotros_columna_con_foto{
     background-size: cover;
     background-image:url(../img/panoramica1.jpg);
     background-repeat:no-repeat;
+    text-align: center;
     vertical-align:bottom;
 }
 
@@ -244,6 +245,7 @@ div.nosotros_columna{
     border-color: gray;
     border-width: 0px;
     vertical-align:bottom;
+    text-align: center;
 }
 
 div.nosotros_columna h2{
