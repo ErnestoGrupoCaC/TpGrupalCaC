@@ -197,15 +197,15 @@ div.index_columna_interna_texto p{
 
 /* clases de Nosotros.html */
 
-section.sin_margen{
-    display:flexbox;
+.contenedor_flex_sin_margen{
+    display:flex;
+    flex-wrap: wrap;
     margin: 0px;
     width: 100%;
     padding: 0px;
 }
 
-div.nosotros_columna_con_foto{
-    display:grid;
+.nosotros_columna_con_foto{
     width:100%;
     height: 300px;
     border: 0px;
@@ -219,28 +219,27 @@ div.nosotros_columna_con_foto{
     vertical-align:bottom;
 }
 
-div.nosotros_columna_con_foto h2{
+.nosotros_columna_con_foto h2{
     color: whitesmoke;
     font-size: 46px;
-    /*padding: 5px;*/
+    padding-top: 5px;
     margin-bottom: 0px;
 }
 
-div.nosotros_columna_con_foto p{
+.nosotros_columna_con_foto p{
     color: whitesmoke;
     vertical-align:text-bottom;
     font-size: 28px;
+    padding-top: 30px;
     margin:0px;
 }
 
-div.nosotros_columna{
+.nosotros_columna{
     width:100%;
     border: 0px;
     padding: 0px;
     margin: 0px;
     border-radius: 0px;        
-    background-size: cover;
-    background-repeat:no-repeat;
     border-style: solid;
     border-color: gray;
     border-width: 0px;
@@ -248,12 +247,12 @@ div.nosotros_columna{
     text-align: center;
 }
 
-div.nosotros_columna h2{
+.nosotros_columna h2{
     color: #2d99dc;
     font-size: 36px;
 }
 
-div.nosotros_columna p{
+.nosotros_columna p{
     color: #0e2b4c;
     vertical-align:text-bottom;
     font-size: 18px;    
