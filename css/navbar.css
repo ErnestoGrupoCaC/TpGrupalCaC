@@ -55,7 +55,7 @@ div.footer_interno_links li:hover{
 }
 
 div.footer_interno_links a:hover{
-    color: rgb(90, 229, 244);
+    color: rgb(90, 229, 244) !important;
     text-decoration: underline;
     font-style:italic;
 }
