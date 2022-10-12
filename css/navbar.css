@@ -130,7 +130,7 @@ header {
 
 #destino:hover {
     transform: scale(1.05);
-    background-color: rgba(115, 148, 174, 0.684)/* agregue Ernesto*/
+    background-color: rgba(115, 148, 174, 0.684)
 }
 
 #grilla-destino {
@@ -263,7 +263,7 @@ div.index_columna_interna_texto p{
 
 
 
-/* Configuraciones responsivas */
+/*----------------- Configuraciones responsivas------------------ */
 
 @media screen and (min-width: 1024px){
     div.headerGrande1{
