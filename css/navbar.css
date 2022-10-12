@@ -195,7 +195,7 @@ div.index_columna_interna_texto p{
     /*background-color: rgb(82, 31, 249);*/
     }
 
-/* clases de Nosotros.html */
+/*--------------- clases de Nosotros.html--------------------- */
 
 .contenedor_flex_sin_margen{
     display:flex;
@@ -257,7 +257,7 @@ div.index_columna_interna_texto p{
     vertical-align:text-bottom;
     font-size: 18px;    
 }
-/* fin de clases de nosotros.html*/
+/*---------------- fin de clases de nosotros.html-----------------*/
 
 
 
