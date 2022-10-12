@@ -125,10 +125,12 @@ header {
     border-color: gray;
     border-width: 0.5px;
     padding: 24px;
+    transition: background-color 2s ; /*cambia el color del fondo en 2 segundos*/
 }
 
 #destino:hover {
     transform: scale(1.05);
+    background-color: rgba(115, 148, 174, 0.684)/* agregue Ernesto*/
 }
 
 #grilla-destino {
