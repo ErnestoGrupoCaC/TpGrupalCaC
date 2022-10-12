@@ -130,7 +130,7 @@ header {
 
 #destino:hover {
     transform: scale(1.05);
-    background-color: rgba(115, 148, 174, 0.684)
+    background-color: rgba(115, 148, 174, 0.684);
 }
 
 #grilla-destino {
@@ -510,7 +510,7 @@ div.index_columna_interna_texto p{
     }
 
     #destino:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     #grilla-destino {
