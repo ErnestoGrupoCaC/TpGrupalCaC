@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIajAR - Home</title>
+    <title>ViajAR - Home</title>
     <link rel="shortcut icon" href="img/viajAr_logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/ba6be1c019.js" crossorigin="anonymous"></script>
@@ -23,17 +23,7 @@
         <div class="headerGrande3"></div>
         <div class="headerGrande4"></div>
         
-        <!-- <div class="acceso">             
-            <a href="#">
-                <i class="fa-solid fa-user"></i>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-right-to-bracket"></i>
-            </a>       
-        </div>-->
-
-    </header>      
-        
+   </header>
         
 
     
@@ -46,43 +36,52 @@
             <i class="fa fa-bars"></i>       
         </a>
     </nav>
-    <section>
-        <div  align="center">    
-
-        <div class="index_columna"align="center" >           
-            <h2>Recorrer Sudamerica</h2>
-            <div class="index_columna_interna_foto">
-                <img src="img/machupichu.jpg" >
-            </div>
-            <div class="index_columna_interna_texto">
-                <p>Recorrer Sudamerica es encontrarse con una parte de la historia, la naturaleza y las bellezas naturales desde el Caribe hasta el estrecho de Magallanes</p>
-            </div>
+    <section class="contenedor_flex_sin_margen">
+        <div class="index_columna_con_foto" >    
+                <h2>Cerca de nuestros clientes</h2>  
+                <p>Para que puedas vivir tus sueños</p>
+                
         </div>
-        <div class="index_columna" align="center">           
-            <h2>El mundo</h2>
-            <div class="index_columna_interna_foto">
-                <img src="img/rosa.jpg">
-            </div>
-            <div class="index_columna_interna_texto">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
-            </div>
-        </div>  
-        <div class="index_columna" align="center">           
+    </section>
+
+    <section >
+    <div class="contenedor_con_margen">     
+        <div class="index_columna">           
             <h2>Descubrir Argentina</h2>
             <div class="index_columna_interna_foto">
-                <img src="img/refugio.jpg" >
+                <img src="img/refugio.jpg"  width="100%" height="100%">
             </div>
             <div class="index_columna_interna_texto">
                 <p>Descubra la Republica Argentina, sus paisajes inolvidables. La costa Atlantica, los Andes, las cataratas del Iguazu, sus increibles parque Nacionales</p>
             </div>
         </div>
+        <div class="index_columna">           
+            <h2>Recorrer Sudamerica</h2>
+            <div class="index_columna_interna_foto">
+                <img src="img/machupichu.jpg"  width="100%" height="100%">
+            </div>
+            <div class="index_columna_interna_texto">
+                <p>Recorrer Sudamerica es encontrarse con una parte de la historia, la naturaleza y las bellezas naturales desde el Caribe hasta el estrecho de Magallanes</p>
+            </div>
+        </div>
+        <div class="index_columna">           
+            <h2>El mundo</h2>
+            <div class="index_columna_interna_foto">
+                <img src="img/rosa.jpg"  width="100%" height="100%">
+            </div>
+            <div class="index_columna_interna_texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </div>
+        </div>  
+    
     </div>    
     </section>
     
     <br>
     <section>    
-        <div align="center">           
-            <h1 class="h1inline">Destinos recomendados</h1>  <a href="destinos.html" >Ver todos los Destinos</a>
+        <div class="contenedor_con_margen">           
+            <h1 class="destinos_recomendados">Destinos recomendados</h1>
+            <p><a href="destinos.html" title="Consulte todos los destinos">Ver todos los Destinos</a></p>
         </div>
         <div id="grilla-destino">
         <div id="destino">
@@ -90,7 +89,7 @@
                 <img src="img/perito2.jpg"  width="100%" >
             </article>
             <article id="info-destino">
-                <h2>Destino</h2>
+                <h2>Calafate</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
             </article>
         </div>
@@ -99,7 +98,7 @@
                 <img src="img/reflopez.jpg"  width="100%" >
             </article>
             <article id="info-destino">
-                <h2>Destino</h2>
+                <h2>Bariloche</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
             </article>
         </div>
@@ -108,7 +107,7 @@
                 <img src="img/arenales.jpg"  width="100%" >
             </article>
             <article id="info-destino">
-                <h2>Destino</h2>
+                <h2>Mendoza</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
             </article>
         </div>
@@ -117,7 +116,7 @@
                 <img src="img/caminata.jpg"  width="100%" >
             </article>
             <article id="info-destino">
-                <h2>Destino</h2>
+                <h2>El Bolsón</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
             </article>
         </div>
@@ -126,40 +125,44 @@
                 <img src="img/cascada.jpg"  width="100%" >
             </article>
             <article id="info-destino">
-                <h2>Destino</h2>
+                <h2>El Chaltén</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
             </article>
         </div>
         </div>
-    </section>    
+    </section>
     <br>
     <br>
+    
     <footer>
         <div class="footer_principal">
-            <div class="footer_interno_links" align="left" >
+            <div class="footer_interno_links" align="left">
                 <ul type="none">
-                    <li><a href="index.html" >Inicio</a></li>
+                    <li ><a2>ViajAr.com</a2></li>
+                    <li ><a href="index.html" >Inicio</a></li>
                     <li><a href="destinos.html" >Destinos</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>        
                 </ul>
             </div>
-            <div class="footer_interno" align="center">
+            <div class="footer_interno" >
                 <ul type="none">
-                    <li><i class="fa-brands fa-whatsapp"style="color: aquamarine;"></i> <a>Whatsapp: +54 9 11 1234-5678</a></li>
-                    <li><i class="fa fa-mobile"style="color: aquamarine;"></i><a>Teléfono: +54 011 5678-1234</a></li>
-                    <li><a>Av. del Turismo 1325 CABA República Argentina</a></li>        
+                    <li ><i class="fa-brands fa-whatsapp"style="color: aquamarine;"></i> <a>Whatsapp: +54 9 11 1234-5678</a></li>
+                    <li ><i class="fa fa-mobile"style="color: aquamarine;"></i><a>Teléfono: +54 011 5678-1234</a></li>
+                    <li ><a></a></li>
+                    <li ><a>Av del Turismo 1325 CABA Republica Argentina</a></li>        
                 </ul>
             </div>
-            <div class="footer_interno_links" align="center" >
+            <div class="footer_interno_links_redes">
                 <ul type="none">
-                    <li><a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook  fa-2x " ></i></a></li>
-                    <li><a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter  fa-2x " ></i></a></li>
-                    <li><a href="http://www.instagram.com" target="_blank" ><i class="fa-brands fa-instagram  fa-2x "></i></a></li>
-                    <li><a href="http://www.tiktok.com" target="_blank" ><i class="fa-brands fa-tiktok  fa-2x " ></i></a></li>
+                    <li><a href="http://www.facebook.com" target="_blank" title="Seguinos en Facebook"><i class="fa-brands fa-facebook  fa-2x " ></i></a></li>
+                    <li><a href="http://www.twitter.com" target="_blank" title="Seguinos en Twitter"><i class="fa-brands fa-twitter  fa-2x " ></i></a></li>
+                    <li><a href="http://www.instagram.com" target="_blank" title="Seguinos en Instagram"><i class="fa-brands fa-instagram  fa-2x "></i></a></li>
+                    <li><a href="http://www.tiktok.com" target="_blank" title="Seguinos en TikTok"><i class="fa-brands fa-tiktok  fa-2x " ></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+    
 </body>
 </html>
