@@ -688,14 +688,6 @@ header {
                
     }
 
-    /*header {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }*/
     section {
         padding: 4px;
     }
@@ -720,23 +712,6 @@ header {
         margin-top: 5px;
         margin-bottom: 10px;
     }
-  /*  div.index_columna{
-        display: inline-block;
-        width: 300px;
-        height: 280px;
-        border: 0px;
-        padding: 0px;
-        margin: 10px;
-        border-radius: 8px;
-        background-color: rgba(18, 85, 173, 0.797);
-        background-color: rgb(143, 179, 234);
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-        border-style: solid;
-        border-color: gray;
-        border-width: 0.5px;
-    }*/
-
     
     .topnav a:not(.activa) {
         display: none;
@@ -762,10 +737,6 @@ header {
         display: block;
         text-align: left;
     }
-
-
-
-
 
     footer {
         display: flex;
