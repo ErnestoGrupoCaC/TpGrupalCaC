@@ -661,14 +661,9 @@ header {
     }    
     
 /* breack point celular */
-@media screen and (max-width: 320px) {
-    
-@media screen and (max-width: 320px) {
-    
-   /* header img{
-        width: 60px;
-    }*/
 
+@media screen and (max-width: 320px) {
+    
     div.headerGrande1{
         display: inline-block;
         width: 40%;
