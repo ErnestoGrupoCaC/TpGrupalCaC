@@ -57,22 +57,16 @@ footer a{
 }
 
 .footer_interno_links a:hover{    
-    color: rgb(90, 229, 244)!important;
+    color: rgb(90, 229, 244) !important;
     text-decoration: underline;
     font-style:italic;
 }
 
 .footer_interno_links_redes a:hover{    
-    color: rgb(90, 229, 244)!important;
+    color: rgb(90, 229, 244) !important;
 }
 
-/*div.footer_interno_links ul:{
-    color: rgba(255, 255, 255);
-}*/
 
-/*div.footer_interno_links li:hover{
-    color: rgb(90, 229, 244);
-}*/
 
 /*------------------------------------  Fin clases del Footer-------------------------*/
 
