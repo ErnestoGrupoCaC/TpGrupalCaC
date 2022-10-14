@@ -257,12 +257,14 @@ footer a{
 .index_columna_interna_texto{
     display: inline-flex;
     width: 48%;
-    height: 200px;
+    min-height: 200px;
     border: 0px;
     padding: 0px;
     margin: 0px;
     align-items:center;
     vertical-align:top;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .index_columna_interna_texto p{
