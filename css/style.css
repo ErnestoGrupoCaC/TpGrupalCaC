@@ -1,10 +1,99 @@
-body {
-    
+body {    
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+    padding: 12px;
+}
 
-/*------------------------------------  comienzo clases del Footer-------------------------*/
+section H1 {
+    color: #0e2b4c;
+    font-weight: 600;
+    padding: 12px;
+}
+
+
+
+/*---------------------Comienzo clases de  Header-------------------*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    /*align-items: center;*/
+}
+
+
+
+.headerGrande1{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgb(128, 0, 255);*/
+    background-image:url(../img/perito.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande2{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgb(128, 0, 255);*/
+    background-image:url(../img/chalten.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande3{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgb(128, 0, 255);*/
+    background-image:url(../img/puente.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.headerGrande4{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgb(128, 0, 255);*/
+    background-image:url(../img/condor.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;            
+}
+
+.headerGrandeLogo{
+    display: inline-block;
+    width: 12%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255,255);
+    background-image:url(../img/viajAr_logo.png);
+    background-repeat:no-repeat;
+    background-size: 98% 100%;
+           
+}
+
+/*----------------------------------Fin clases de Header--------------------------------*/
+
+
+
+/*--------------------------------- Comienzo clases del Footer--------------------------*/
 footer {
     background-color: #0e2b4c;
     display: flex;
@@ -13,6 +102,7 @@ footer {
     align-items: flex-start;
     align-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 footer a{
@@ -22,6 +112,7 @@ footer a{
     font-weight: 600;
     font-size: 15px;
     margin-top: 12px;
+    align-items: center;
 }
 
 .footer_principal{
@@ -34,11 +125,30 @@ footer a{
     /*display: inline-flex;*/
     /*width: 280px;    */
     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .footer_interno li{
     height: 20px;
 } 
+
+.footer_interno_links_redes {/* agregado*/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer_interno_links {  /*agregado*/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
 
 .footer_interno_links li{
     height: 25px;
@@ -66,92 +176,11 @@ footer a{
     color: rgb(90, 229, 244) !important;
 }
 
+/*---------------------------------  Fin clases del Footer-------------------------*/
 
 
-/*------------------------------------  Fin clases del Footer-------------------------*/
 
-section {
-    padding: 12px;
-}
-
-section H1 {
-    color: #0e2b4c;
-    font-weight: 600;
-    padding: 12px;
-}
-/* Color de fondo de la barra */
-.topnav {
-    background-color: #0e2b4c;
-    overflow: hidden;
-    
-}
-
-/* Estilo de los vínculos */
-.topnav a {
-    float: left;
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-/* Cambia el estilo en hover */
-.topnav a:hover {
-    background-color: whitesmoke;
-    color: #2d99dc;
-}
-
-/* Define el estilo de la página activa */
-.topnav a.activa {
-    background-color:#2d99dc;
-}
-
-/* Oculta el ícono de hamburguesa en pantallas grandes */
-.topnav .icono {
-    display: none;
-}
-
-header {
-    display: flex;
-    justify-content: flex-start;
-    /*align-items: center;*/
-}
-
-.acceso a{
-    color: #0e2b4c;
-    font-size: 20px;
-    padding: 10px;
-}
-
-
-#destino {
-    width: 240px;
-    margin-left: 12px;
-    margin-top: 12px;
-    border-style: solid;
-    border-color: gray;
-    border-width: 0.5px;
-    padding: 24px;
-    transition: background-color 2s ; /*cambia el color del fondo en 2 segundos*/
-}
-
-#destino:hover {
-    transform: scale(1.05);
-    background-color: rgba(115, 148, 174, 0.684);
-}
-
-#grilla-destino {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-   align-content: center;
-}
-
-/*------------------Comienzo clases de  index.html----------------*/
+/*-------------------------Comienzo clases de  index.html--------------------------*/
 
 .contenedor_con_margen{
     display:flex;
@@ -160,25 +189,9 @@ header {
     padding: 0px;
     flex-wrap: wrap;
     justify-content: center;
-    /*background-color: rgba(154, 225, 236, 0.488);*/
+
 }
 
-/*.index_columna_grande{
-    display: inline-block;
-    width: 100%;
-    border: 0px;
-    padding: 0px;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    background-color: rgba(63, 205, 84, 0.89);
-    background-size: 100% 100%;
-    border-style: solid;
-    border-color: gray;
-    border-width: 0.5px;
-}*/
 .index_columna_con_foto{
     width:100%;
     height: 300px;
@@ -263,11 +276,11 @@ header {
     margin-right: 30px;
     text-align: center;
 }
+/*------------------------Fin de clases de  index.html-------------------------*/
 
-/*----------------Fin de clases de  index.html------------------*/
 
 
-/*--------------- clases de Nosotros.html---------------------- */
+/*----------------------- clases de Nosotros.html------------------------------ */
 
 .contenedor_flex_sin_margen{
     display:flex;
@@ -333,210 +346,153 @@ header {
 
 
 
+
+/*---------------------------Comienzo de clases de la barra de Navegacion------------*/
+
+/* Color de fondo de la barra */
+.topnav {
+    background-color: #0e2b4c;
+    overflow: hidden;
+    
+}
+
+/* Estilo de los vínculos */
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Cambia el estilo en hover */
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: #2d99dc;
+}
+
+/* Define el estilo de la página activa */
+.topnav a.activa {
+    background-color:#2d99dc;
+}
+
+/* Oculta el ícono de hamburguesa en pantallas grandes */
+.topnav .icono {
+    display: none;
+}
+
+/*---------------------------Fin de clasesde la barra de Navegacion------------*/
+
+
+
+/*---------------------------Comienzo de clasesde Destinos.Hml-----------------*/
+
+
+
+
+#destino {
+    width: 240px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    padding: 24px;
+    transition: background-color 2s ; /*cambia el color del fondo en 2 segundos*/
+}
+
+#destino:hover {
+    transform: scale(1.05);
+    background-color: rgba(115, 148, 174, 0.684);
+}
+
+#grilla-destino {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/*---------------------------Fin  de clasesde Destinos.Hml-----------------*/
+
+
+
+
+.acceso a{
+    color: #0e2b4c;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
 /*----------------- Configuraciones responsivas------------------ */
 
 @media screen and (min-width: 1024px){
 
-    div.headerGrande1{
-        display: inline-block;
-        width: 22%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/perito.jpg);
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-    }
-
-    div.headerGrande2{
-        display: inline-block;
-        width: 22%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/chalten.jpg);
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-    }
-    div.headerGrande3{
-        display: inline-block;
-        width: 22%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/puente.jpg);
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-    }
-    div.headerGrande4{
-        display: inline-block;
-        width: 22%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/condor.jpg);
-        background-size: 100% 100%;
-        background-repeat:no-repeat;            
-    }
-    div.headerGrandeLogo{
-        display: inline-block;
-        width: 12%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/viajAr_logo.png);
-        background-repeat:no-repeat;
-        background-size: 98% 100%;
-               
-    }
-
     #centrado { width: 1024px; margin: 0 auto; }
 
-    }
+}
 
 @media screen and (min-width: 768px) and (max-width:1023px){
-    div.headerGrande1{
-        display: inline-block;
+    .headerGrande1{        
         width: 29%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/perito.jpg);
         background-size: cover;
-        background-repeat:no-repeat;
     }
 
-    div.headerGrande2{
-        display: inline-block;
+    .headerGrande2{
         width: 29%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/chalten.jpg);
         background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande3{
-        display: inline-block;
+
+    .headerGrande3{
         width: 29%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/puente.jpg);
         background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande4{
-        display: inline-block;
+
+    .headerGrande4{
         width: 0%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/condor.jpg);
-        background-size: cover;
-        background-repeat:no-repeat;            
     }
-    div.headerGrandeLogo{
-        display: inline-block;
+
+    .headerGrandeLogo{
         width:124px ;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/viajAr_logo.png);
-        background-repeat:no-repeat;
-        background-size:98% 100%;
-               
     }
 
-    #centrado { width: 100%; margin: 0 auto; }
+   #centrado { width: 100%; margin: 0 auto; }
 
-
-
-    }
+}
  
 @media screen and (min-width: 321px) and (max-width: 767px) {
     
-    div.headerGrande1{
-        display: inline-block;
+    .headerGrande1{
         width: 40%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/perito.jpg);
         background-size:cover;
-        background-repeat:no-repeat;
     }
 
-    div.headerGrande2{
-        display: inline-block;
+    .headerGrande2{
         width: 40%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/chalten.jpg);
         background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande3{
-        display: inline-block;
+    .headerGrande3{
         width: 0%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/puente.jpg);
-        background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande4{
-        display: inline-block;
+
+    .headerGrande4{
         width: 0%;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/condor.jpg);
-        background-size: cover;
-        background-repeat:no-repeat;            
     }
-    div.headerGrandeLogo{
-        display: inline-block;
+
+    .headerGrandeLogo{
         width: 124px;
-        height: 170px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/viajAr_logo.png);
-        background-repeat:no-repeat;
-        background-size: 100% 100%;
-               
+        /*background-size: 100% 100%;*/
     }
 
     #centrado { width: 100%; margin: 0 auto; }
@@ -577,10 +533,7 @@ header {
         padding: 12px;
     }
 
-    #destino:hover {
-        transform: scale(1.05);
-    }
-
+/*
     #grilla-destino {
         display: flex;
         flex-direction: row;
@@ -588,7 +541,7 @@ header {
         justify-content: center;
         align-items: center;
        align-content: center;
-    }
+    }*/
 
     footer {
         display: flex;
@@ -598,7 +551,7 @@ header {
         align-items: center;
     }
 
-    div.footer_principal {
+    .footer_principal {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -606,7 +559,7 @@ header {
         align-items: center;
     }
     
-    div.footer_interno {
+    .footer_interno {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -615,71 +568,37 @@ header {
     }    
 }
 
-/* breack point celular */
+/*----------------------- breack point celular ---------------------*/
 
 @media screen and (max-width: 320px) {
     
-    div.headerGrande1{
-        display: inline-block;
+    .headerGrande1{   
         width: 40%;
         height: 130px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/perito.jpg);
         background-size:cover;
-        background-repeat:no-repeat;
     }
 
-    div.headerGrande2{
-        display: inline-block;
+    .headerGrande2{    
         width: 40%;
         height: 130px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/chalten.jpg);
         background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande3{
-        display: inline-block;
+
+    .headerGrande3{
         width: 0%;
         height: 130px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/puente.jpg);
-        background-size: cover;
-        background-repeat:no-repeat;
     }
-    div.headerGrande4{
-        display: inline-block;
+
+    .headerGrande4{
         width: 0%;
         height: 130px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(128, 0, 255);
-        background-image:url(../img/condor.jpg);
-        background-size: cover;
-        background-repeat:no-repeat;            
     }
-    div.headerGrandeLogo{
-        display: inline-block;
+
+    .headerGrandeLogo{
         width: 124px;
         height: 130px;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/viajAr_logo_chico.png);
-        background-repeat:no-repeat;
+        background-image:url(../img/viajAr_logo_chico.png); 
         background-size: 100%;
-               
     }
 
     section {
@@ -733,35 +652,51 @@ header {
     }
 
     footer {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        /*display: flex;*/
+        /*width: 100%;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
-    div.footer_principal {
-        display: flex;
-        width: 100%;
+    .footer_principal {
+        /*display: flex;*/
+        /*width: 100%;*/
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
+
+    .footer_interno a {
+        font-size: 13px;
+    } 
     
-    div.footer_interno {
+    /*.footer_interno {
         display: flex;
         width: 100%;
         flex-direction: column;
         justify-content: center;
+        margin: 0px;
         
-    }
+    }*/
 
-    .destinos_recomendados{           /*Color texto Destinos recomendados */
+    #centrado { width: 100%; margin: 0 auto; }
+
+    .destinos_recomendados {           
         color: #131212;
         margin-bottom: 0px;
         margin-top: 0px;
         margin-right: 0px;
         text-align: center;
+        
     }
 
 
