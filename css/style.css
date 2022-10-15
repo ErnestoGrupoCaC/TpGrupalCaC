@@ -75,6 +75,19 @@ header {
     background-repeat:no-repeat;            
 }
 
+.headerGrande5{
+    display: inline-block;
+    width: 22%;
+    height: 170px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgb(128, 0, 255);*/
+    background-image:url(../img/lago.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;            
+}
+
 .headerGrandeLogo{
     display: inline-block;
     width: 12%;
@@ -243,6 +256,37 @@ footer a{
     border-width: 0.5px;
 }
 
+.index_columna h2{
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+    text-align: center;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 0px;
+    /*background-color:rgba(169, 169, 169, 0.344) ;*/
+}
+.index_columna h3{
+    height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    /*background-color: rgba(132, 135, 139, 0.184);*/
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: grey(0, 0, 0);
+}
+
+
 .index_columna_interna_foto{
     display:inline-flex;
     width: 48%;
@@ -278,6 +322,24 @@ footer a{
     margin-right: 30px;
     text-align: center;
 }
+
+.destino {
+    width: 240px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: grey(236, 17, 17);
+    border-width: 0px;
+    padding: 24px;
+    transition: background-color 1.5s ; /*cambia el color del fondo en 2 segundos*/
+}
+
+.destino:hover {
+    transform: scale(1.05);
+    background-color: rgba(115, 148, 174, 0.684);
+}
+
+
 /*------------------------Fin de clases de  index.html-------------------------*/
 
 
