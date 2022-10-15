@@ -464,7 +464,7 @@ footer a{
     border-color: gray;
     border-width: 0.5px;
     padding: 24px;
-    transition: background-color 2s ; /*cambia el color del fondo en 2 segundos*/
+    transition: background-color 1.5s ; /*cambia el color del fondo en 2 segundos*/
 }
 
 #destino:hover {
