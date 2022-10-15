@@ -249,11 +249,11 @@ footer a{
     margin-bottom: 10px;
     border-radius: 8px;
     text-align: center;
-    background-color: rgba(132, 135, 139, 0.184);
+    /*background-color: rgba(132, 135, 139, 0.184);*/
     background-size: 100% 100%;
     border-style: solid;
     border-color: rgb(128, 128, 128);
-    border-width: 0.5px;
+    border-width: 0px;
 }
 
 .index_columna h2{
