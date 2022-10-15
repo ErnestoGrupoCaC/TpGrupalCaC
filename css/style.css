@@ -256,6 +256,12 @@ footer a{
     border-width: 0px;
 }
 
+
+.index_columna:hover {
+    transform: scale(1.03);
+}
+
+
 .index_columna h2{
     height: 20px;
     margin-top: 0px;
