@@ -573,7 +573,40 @@ footer a{
  
 @media screen and (min-width: 321px) and (max-width: 767px) {
     
-    .headerGrande1{
+     .headerGrande1{
+        width: 43%;
+        height: 115px;
+        background-size:cover;
+    }
+
+    .headerGrande2{
+        width: 43%;
+        height: 115px;
+        background-size: cover;
+    }
+    .headerGrande3{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrande4{
+        width: 0%;
+        height: 115px;
+    }
+
+    .headerGrandeLogo{
+        width: 100px;
+        min-width: 100px;
+        height: 115px;
+        background-image:url(../img/viajAr_logo_chico.png); 
+        background-size: 100% 100%;
+        /*background-size: 100% 100%;*/
+    }
+    
+    
+    
+    
+    /*  .headerGrande1{
         width: 42%;
         background-size:cover;
     }
@@ -593,7 +626,7 @@ footer a{
     .headerGrandeLogo{
         width: 124px;
         /*background-size: 100% 100%;*/
-    }
+    }*/
 
     #centrado { width: 100%; margin: 0 auto; }
 
