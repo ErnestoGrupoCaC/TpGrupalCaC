@@ -667,6 +667,18 @@ footer a{
 
     }
 
+    .footer_interno_links_redes {
+        text-align: center;
+    }
+
+    .footer_interno_links_redes ul li{
+        display: inline;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
     
 }
 
@@ -674,7 +686,7 @@ footer a{
 
 @media screen and (max-width: 320px) {
     
-       .headerGrande1{   
+    .headerGrande1{   
         width: 35%;
         height: 115px;
         background-size:cover;
@@ -707,39 +719,9 @@ footer a{
         background-image:url(../img/viajAr_logo_chico.png); 
         background-size: cover;
     }
+       
     
-    
-    
-    /* .headerGrande1{   
-        width: 40%;
-        height: 130px;
-        background-size:cover;
-    }
-
-    .headerGrande2{    
-        width: 40%;
-        height: 130px;
-        background-size: cover;
-    }
-
-    .headerGrande3{
-        width: 0%;
-        height: 130px;
-    }
-
-    .headerGrande4{
-        width: 0%;
-        height: 130px;
-    }
-
-    .headerGrandeLogo{
-        width: 124px;
-        height: 130px;
-        background-image:url(../img/viajAr_logo_chico.png); 
-        background-size: 100%;
-    }*/
-
-    section {
+     section {
         padding: 4px;
     }
 
@@ -817,14 +799,17 @@ footer a{
         font-size: 13px;
     } 
     
-    /*.footer_interno {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0px;
-        
-    }*/
+    .footer_interno_links_redes {
+        text-align: center;
+    }
+
+    .footer_interno_links_redes ul li{
+        display: inline;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 0px;
+        padding: 0px;
+    }
 
     #centrado { width: 100%; margin: 0 auto; }
 
