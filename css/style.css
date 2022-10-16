@@ -118,6 +118,11 @@ footer {
     width: 100%;
 }
 
+footer ul{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 footer a{
     color: whitesmoke !important;
     text-align: center;
