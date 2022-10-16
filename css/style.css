@@ -118,10 +118,10 @@ footer {
     width: 100%;
 }
 
-footer ul{
+/*footer ul{
     padding-left: 0px;
     padding-right: 0px;
-}
+}*/
 
 footer a{
     color: whitesmoke !important;
@@ -129,7 +129,7 @@ footer a{
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    margin-top: 12px;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -137,6 +137,10 @@ footer a{
     display: inline-flex;
     justify-content:space-around;
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .footer_interno{
@@ -151,6 +155,11 @@ footer a{
 
 .footer_interno li{
     height: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
 } 
 
 .footer_interno_links_redes {/* agregado*/
@@ -166,6 +175,23 @@ footer a{
     padding-right: 0px;
 }
 
+.footer_interno_links ul{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer_interno_links_redes ul{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.footer_interno ul{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    
+}
 
 
 .footer_interno_links li{
@@ -684,6 +710,36 @@ footer a{
         padding: 0px;
     }
     
+    .footer_interno_links {
+        text-align:center;
+        margin:0px;
+    }
+
+    .footer_interno_links ul li{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        
+                
+    }
+
+    .footer_interno_links ul li a{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 10px;
+        font-size: 14px;   
+    }
+    .footer_interno ul li a {
+        font-size: 14px;
+    } 
+
+    .footer_interno_links ul li a2 {
+        display: block;
+    }
     
 }
 
@@ -777,11 +833,6 @@ footer a{
     }
 
     footer {
-        /*display: flex;*/
-        /*width: 100%;*/
-        /*flex-direction: column;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 0px;
@@ -794,10 +845,7 @@ footer a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+
     }
 
     .footer_interno a {
@@ -805,6 +853,10 @@ footer a{
     } 
     
     .footer_interno_links_redes {
+        text-align: center;
+    }
+    
+    .footer_interno_links {
         text-align: center;
     }
 
@@ -816,6 +868,32 @@ footer a{
         padding: 0px;
     }
 
+        .footer_interno_links ul li{
+        display: inline;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+                
+    }
+    
+    .footer_interno_links ul li a{
+        font-size: 14px;
+        padding-left: 4px;
+        padding-right: 4px;                
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .footer_interno_links ul li a2 {
+        display: block;
+        font-size: 15px;
+        height: 20px;
+    }
+    .footer_interno ul li a {
+        font-size: 14px;
+    } 
+    
     #centrado { width: 100%; margin: 0 auto; }
 
     .destinos_recomendados {           
@@ -823,16 +901,14 @@ footer a{
         margin-bottom: 0px;
         margin-top: 0px;
         margin-right: 0px;
-        text-align: center;
-        
+        text-align: center;        
     }
 
 
     .index_columna_con_foto{
         width:100%;
         height: 180px;
-        background-size: cover;
-        
+        background-size: cover;        
     }
 
     .index_columna_con_foto h2{
