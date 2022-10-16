@@ -573,7 +573,7 @@ footer a{
  
 @media screen and (min-width: 321px) and (max-width: 767px) {
     
-     .headerGrande1{
+    .headerGrande1{
         width: 43%;
         height: 115px;
         background-size:cover;
@@ -625,7 +625,7 @@ footer a{
 
     .headerGrandeLogo{
         width: 124px;
-        /*background-size: 100% 100%;*/
+        background-size: 100% 100%;
     }*/
 
     #centrado { width: 100%; margin: 0 auto; }
