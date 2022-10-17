@@ -839,6 +839,15 @@ footer a{
         margin-bottom: 10px;
     }
     
+    /* -----------agregado para achicar barnav en celulares----------------*/
+    .topnav a {
+        padding: 8px 12px;
+        font-size: 0.8em;
+    }
+    
+    /* -------------------------------------------------------------------*/
+    
+    
     .topnav a:not(.activa) {
         display: none;
     }
