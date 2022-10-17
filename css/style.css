@@ -12,6 +12,11 @@ section H1 {
     padding: 12px;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+
 
 
 /*---------------------Comienzo clases de  Header-------------------*/
