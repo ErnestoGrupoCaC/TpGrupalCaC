@@ -372,7 +372,7 @@ footer a{
     border-color: grey(236, 17, 17);
     border-width: 0px;
     padding: 24px;
-    transition: background-color 1.5s ; /*cambia el color del fondo en 2 segundos*/
+    transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
 }
 
 .destino:hover {
@@ -505,11 +505,11 @@ footer a{
     border-color: gray;
     border-width: 0.5px;
     padding: 24px;
-    transition: background-color 1.5s ; /*cambia el color del fondo en 2 segundos*/
+    transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
 }
 
 #destino:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     background-color: rgba(115, 148, 174, 0.684);
 }
 
