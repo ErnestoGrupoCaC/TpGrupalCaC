@@ -782,6 +782,9 @@ footer a{
 
     .footer_interno_links ul li a2 {
         display: block;
+        font-size: 22px;
+        font-weight: 600 ;
+        padding-bottom: 5px;
     }
     
 }
@@ -939,8 +942,11 @@ footer a{
     }
     .footer_interno_links ul li a2 {
         display: block;
-        font-size: 15px;
+       /* font-size: 15px;*/
         height: 20px;
+        font-size: 22px;
+        font-weight: 600 ;
+        padding-bottom: 5px;
     }
     .footer_interno ul li a {
         font-size: 14px;
