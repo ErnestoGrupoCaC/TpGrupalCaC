@@ -206,7 +206,10 @@ footer a{
     height: 35px;
 }
 
-.footer_interno_links li a2{    
+.footer_interno_links ul li a2 {
+    font-size: 17px;
+    font-weight: 600 ;
+    padding-bottom: 5px;
     color: rgb(90, 229, 244);
 }
 
