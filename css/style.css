@@ -23,7 +23,7 @@ a:link, a:visited, a:active {
 header {
     display: flex;
     justify-content: flex-start;
-    /*align-items: center;*/
+
 }
 
 
@@ -34,7 +34,6 @@ header {
     border: 0px;
     padding: 0px;
     margin: 0px;
-    /*background-color: rgb(128, 0, 255);*/
     background-image:url(../img/perito.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -47,7 +46,6 @@ header {
     border: 0px;
     padding: 0px;
     margin: 0px;
-    /*background-color: rgb(128, 0, 255);*/
     background-image:url(../img/chalten.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -60,7 +58,6 @@ header {
     border: 0px;
     padding: 0px;
     margin: 0px;
-    /*background-color: rgb(128, 0, 255);*/
     background-image:url(../img/puente.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -73,7 +70,6 @@ header {
     border: 0px;
     padding: 0px;
     margin: 0px;
-    /*background-color: rgb(128, 0, 255);*/
     background-image:url(../img/condor.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;            
@@ -86,7 +82,6 @@ header {
     border: 0px;
     padding: 0px;
     margin: 0px;
-    /*background-color: rgb(128, 0, 255);*/
     background-image:url(../img/lago.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;            
@@ -122,10 +117,6 @@ footer {
     width: 100%;
 }
 
-/*footer ul{
-    padding-left: 0px;
-    padding-right: 0px;
-}*/
 
 footer a{
     color: whitesmoke !important;
@@ -148,8 +139,6 @@ footer a{
 }
 
 .footer_interno{
-    /*display: inline-flex;*/
-    /*width: 280px;    */
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -274,7 +263,6 @@ footer a{
 }
 
 .index_columna{
-    /*display: inline-block;*/
     width: 30%;
     max-width:420px;
     min-width: 280px;
@@ -287,7 +275,6 @@ footer a{
     margin-bottom: 10px;
     border-radius: 8px;
     text-align: center;
-    /*background-color: rgba(132, 135, 139, 0.184);*/
     background-size: 100% 100%;
     border-style: solid;
     border-color: rgb(128, 128, 128);
@@ -311,8 +298,8 @@ footer a{
     border-style: solid;
     border-color: rgb(128, 128, 128);
     border-width: 0px;
-    /*background-color:rgba(169, 169, 169, 0.344) ;*/
 }
+
 .index_columna h3{
     height: 10px;
     margin-top: 0px;
@@ -320,7 +307,6 @@ footer a{
     border: 0px;
     border-radius: 8px;
     text-align: center;
-    /*background-color: rgba(132, 135, 139, 0.184);*/
     background-size: 100% 100%;
     border-style: solid;
     border-color: rgb(128, 128, 128);
@@ -367,7 +353,7 @@ footer a{
     text-align: center;
 }
 
-.destino {
+.destino_recomendado {
     width: 240px;
     margin-left: 12px;
     margin-top: 12px;
@@ -378,8 +364,8 @@ footer a{
     transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
 }
 
-.destino:hover {
-    transform: scale(1.05);
+.destino_recomendado:hover {
+    transform: scale(1.04);
     background-color: rgba(115, 148, 174, 0.684);
 }
 
@@ -500,7 +486,7 @@ footer a{
 
 
 
-#destino {
+.destino {
     width: 240px;
     margin-left: 12px;
     margin-top: 12px;
@@ -511,7 +497,7 @@ footer a{
     transition: background-color 1.5s ; /*cambia el color del fondo en 1.5 segundos*/
 }
 
-#destino:hover {
+.destino:hover {
     transform: scale(1.04);
     background-color: rgba(115, 148, 174, 0.684);
 }
@@ -527,7 +513,7 @@ footer a{
 
 .info_clima{
     font-size: 13px;
-    /*font-style:italic;*/
+ 
 }
 
 
@@ -614,33 +600,10 @@ footer a{
         height: 115px;
         background-image:url(../img/viajAr_logo_chico.png); 
         background-size: 100% 100%;
-        /*background-size: 100% 100%;*/
-    }
-    
-    
-    
-    
-    /*  .headerGrande1{
-        width: 42%;
-        background-size:cover;
-    }
 
-    .headerGrande2{
-        width: 42%;
-        background-size: cover;
     }
-    .headerGrande3{
-        width: 0%;
-    }
+    
 
-    .headerGrande4{
-        width: 0%;
-    }
-
-    .headerGrandeLogo{
-        width: 124px;
-        background-size: 100% 100%;
-    }*/
 
     #centrado { width: 100%; margin: 0 auto; }
 
@@ -670,7 +633,7 @@ footer a{
         text-align: left;
     }
 
-    #destino {
+    .destino {
         width: 160px;
         margin-left: 12px;
         margin-top: 12px;
@@ -680,15 +643,6 @@ footer a{
         padding: 12px;
     }
 
-/*
-    #grilla-destino {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-       align-content: center;
-    }*/
 
     footer {
         display: flex;
@@ -844,12 +798,13 @@ footer a{
         margin-top: 5px;
     }
 
-    #info-destino {
+    .info-destino {
         margin-bottom: 20px;
         border-bottom: gray;
+    
     }
 
-    #destino {
+    .destino {
         border-bottom-style: solid;
         border-bottom-color: gray;
         margin-top: 5px;
@@ -898,8 +853,6 @@ footer a{
     }
 
     .footer_principal {
-        /*display: flex;*/
-        /*width: 100%;*/
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -926,7 +879,7 @@ footer a{
         padding: 0px;
     }
 
-        .footer_interno_links ul li{
+    .footer_interno_links ul li{
         display: inline;
         margin-right: 0px;
         margin-left: 0px;
@@ -945,12 +898,12 @@ footer a{
     }
     .footer_interno_links ul li a2 {
         display: block;
-       /* font-size: 15px;*/
         height: 20px;
         font-size: 22px;
         font-weight: 600 ;
         padding-bottom: 5px;
     }
+
     .footer_interno ul li a {
         font-size: 14px;
     } 
