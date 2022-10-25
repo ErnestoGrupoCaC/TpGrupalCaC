@@ -635,11 +635,6 @@ footer a{
 
     .destino {
         width: 160px;
-        margin-left: 12px;
-        margin-top: 12px;
-        border-style: solid;
-        border-color: gray;
-        border-width: 0.5px;
         padding: 12px;
     }
 
@@ -809,6 +804,7 @@ footer a{
         border-bottom-color: gray;
         margin-top: 5px;
         margin-bottom: 10px;
+        width: 160px;
     }
     
     /* -----------agregado para achicar barnav en celulares----------------*/
