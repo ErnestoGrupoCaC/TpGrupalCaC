@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPNHF - Home</title>
+    <link rel="shortcut icon" href="img/viajAr_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ba6be1c019.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+</head>
+<body>
+    <header id="centrado">
+            
+        <div class="headerGrandeLogo">            
+            <a href="index.html"></a>
+        </div>
+        <div class="headerGrande1"></div>
+        <div class="headerGrande2"></div>
+        <div class="headerGrande3"></div>
+        <div class="headerGrande4"></div>
+        
+   </header>
+        
+
+    
+    <nav class="topnav" id="barraNav">
+        <a href="index.html" class="activa"><i class="fa-solid fa-house"></i></a>
+        <a href="destinos.html" >Destinos</a>
+        <a href="contact.html">Contacto</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="javascript:void(0);" class="icono" onclick="menuResponsivo()">
+            <i class="fa fa-bars"></i>       
+        </a>
+    </nav>
+    <section class="contenedor_flex_sin_margen">
+        <div class="index_columna_con_foto" >    
+                <h2>SIN PLANETA NO HAY FUTURO</h2>  
+                <p>Aprender del pasado para cambiar el presente y defender el futuro</p>
+                
+        </div>
+    </section>
+
+    <section >
+    <div class="contenedor_con_margen">     
+        <div class="index_columna">
+            <a href="destinos.html">           
+            <h2>Calentamiento Global</h2><h3>_____________________________</h3><br>
+            <div class="index_columna_interna_foto">
+                <!--<img src="img/refugio.jpg"  width="100%" height="100%">-->
+            </div>
+            <div class="index_columna_interna_texto">
+                <p>Descubra la Republica Argentina, sus paisajes inolvidables. La costa Atlantica, los Andes, las cataratas del Iguazu, sus increibles parque Nacionales</p>
+            </div>
+            </a>
+        </div>
+        <div class="index_columna">  
+            <a href="destinos.html">         
+            <h2>Derretimiento de los polos</h2><h3>_____________________________</h3><br>
+            <div class="index_columna_interna_foto">
+                <img src="img/machupichu.jpg"  width="100%" height="100%">
+            </div>
+            <div class="index_columna_interna_texto">
+                <p>Recorrer Sudamerica es encontrarse con una parte de la historia, la naturaleza y las bellezas naturales desde el Caribe hasta el estrecho de Magallanes</p>
+            </div>
+            </a>
+        </div>
+        <div class="index_columna">
+            <a href="destinos.html">           
+            <h2>No hay planeta B</h2><h3>_____________________________</h3><br>
+            <div class="index_columna_interna_foto">
+                <img src="img/rosa.jpg"  width="100%" height="100%">
+            </div>
+            <div class="index_columna_interna_texto">
+                <p>Con nuestro apoyo y tus ganas de viajar el mundo no tiene fronteras, una fuente inagotable de experiencias enriquecedoras recorramoslo juntos</p>
+            </div>
+            </a>
+        </div>  
+    
+    </div>    
+    </section>
+    
+    <br>
+    <section>    
+        <div class="contenedor_con_margen">           
+            <h1 class="destinos_recomendados">Destinos recomendados</h1>
+            <p><a href="destinos.html" title="Consulte todos los destinos">Ver todos los Destinos</a></p>
+        </div>
+        <div id="grilla-destino">
+        <div class="destino_recomendado">
+            <a href="destinoIndividual.html">
+            <article >
+                <img src="img/perito2.jpg"  width="100%" >
+            </article>
+            <article >
+                <h2>Calafate</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </article>
+            </a>
+        </div>
+        <div class="destino_recomendado" >
+            <a href="destinoIndividual.html">
+            <article >
+                <img src="img/reflopez.jpg"  width="100%" >
+            </article>
+            <article >
+                <h2>Bariloche</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </article>
+        </div>
+            </a>
+        <div class="destino_recomendado" >
+            <a href="destinoIndividual.html">
+            <article >
+                <img src="img/arenales.jpg"  width="100%" >
+            </article>
+            <article >
+                <h2>Mendoza</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </article>
+            </a>
+        </div>
+        <div class="destino_recomendado" >
+            <a href="destinoIndividual.html">
+            <article >
+                <img src="img/caminata.jpg"  width="100%" >
+            </article>
+            <article >
+                <h2>El Bolsón</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </article>
+            </a>
+        </div>
+        <div class="destino_recomendado" >
+            <a href="destinoIndividual.html">
+            <article >
+                <img src="img/cascada.jpg"  width="100%" >
+            </article>
+            <article >
+                <h2>El Chaltén</h2>
+                <p>Lorem ipsum dolor sit amet, hshgconsectetur adipiscing elit. Vestibulum varius dolor eget mauris tincidunt varius.</p>
+            </article>
+            </a>
+        </div>
+            
+        </div>
+    </section>
+    <br>
+    <br>
+    
+    <footer>
+        <div class="footer_principal">
+            <div class="footer_interno_links" align="left">
+                <ul type="none">
+                    <li ><a2>SPNHF.com.ar</a2></li>
+                    <li ><a href="index.html" >Inicio</a></li>
+                    <li><a href="destinos.html" >Destinos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>        
+                </ul>
+            </div>
+            <div class="footer_interno" >
+                <ul type="none">
+                    <li ><i class="fa-brands fa-whatsapp"style="color:rgb(90, 229, 244);"></i> <a>Whatsapp: +54 9 11 8888-8888</a></li>
+                    <li ><i class="fa fa-mobile"style="color:rgb(90, 229, 244);"></i><a>Teléfono: +54 011 8888-8888</a></li>
+                    <li ><a></a></li>
+                    <li ><a>Av del futuro CABA</a></li>
+                    <li ><a>República Argentina</a></li>
+                    <!--<li id="cambio"><a>USD a EUR:</a></li>  -->     
+                </ul>
+            </div>
+            <div class="footer_interno_links_redes">
+                <ul type="none">
+                    <li><a href="http://www.facebook.com" target="_blank" title="Seguinos en Facebook"><i class="fa-brands fa-facebook  fa-2x " ></i></a></li>
+                    <li><a href="http://www.twitter.com" target="_blank" title="Seguinos en Twitter"><i class="fa-brands fa-twitter  fa-2x " ></i></a></li>
+                    <li><a href="http://www.instagram.com" target="_blank" title="Seguinos en Instagram"><i class="fa-brands fa-instagram  fa-2x "></i></a></li>
+                    <li><a href="http://www.tiktok.com" target="_blank" title="Seguinos en TikTok"><i class="fa-brands fa-tiktok  fa-2x " ></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/apis.js"></script>
+</body>
+</html>
